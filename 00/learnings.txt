@@ -1,0 +1,36 @@
+pytorch is torch here
+scalar 0 dim
+vector 1 dim
+MATRIX 2 dim
+TENSOR n dim
+
+method/attribute -> parametre
+
+.tensor -> dtype,device,required_grads
+.dtype(shows the type of the tensor)
+.type (can change the datatype)
+.device
+.item() (only for scalar)
+.ndim -> dimension
+.shape 
+.rand -> random floating nembers
+.zeros -> size
+.ones -> size
+.range/arange -> start,end,step
+.zeros/ones/rand_like -> input
+
+.add/sub/mul/div 
+.matmul(mm), .T
+.min/max
+.argmin/argmax
+
+.reshape
+.view
+.stack
+.squeeze
+.unsqueeze
+.permute
+
+reproducibility
+setting random seed for same random value each time the tensor is created
+checking gpu, setting gpu, create tensor on gpu, move it on cpu (vice versa)
