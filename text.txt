@@ -1,0 +1,7 @@
+pytorch
+
+what is deep learning?
+supervised and unsupervised learning
+what are neural networks?
+creating a basic linear regression model with the training and testing loop and saving and loading it
+creating a binary classification model  
